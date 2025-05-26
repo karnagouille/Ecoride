@@ -1,0 +1,345 @@
+
+/*#region index */
+
+/*navbar*/
+
+
+.container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+    
+    
+}
+.container:hover{
+    color: rgb(48, 219, 57);
+}
+
+.container:active{
+    transform: scale(0.98);
+}
+.decoration{
+    text-decoration:none ;
+}
+
+/* BODY PAGE D'ACCUEIL*/
+body{
+background:linear-gradient(rgb(69, 157, 216),rgb(48, 219, 57))
+}
+
+.search{
+    background-image: url(/Ecoride/image/covoit.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    height: 1000px;
+    border-radius: 100%;
+    gap: 30px;
+}
+
+.tittle{
+    color:rgb(214, 161, 63) ;
+    text-shadow: 1px  1px black;
+}
+
+
+
+.cacher{
+    display: none;
+}
+
+.input{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    font-family:'roboto Slab', serif;
+    font-size: 18px;
+}
+
+.inputdate{
+    width: 130px;
+    height: 38px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.find{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background:linear-gradient(rgb(69, 157, 216),rgb(48, 219, 57)) ;
+}
+
+
+/* AVANTAGES */
+
+.advantages {
+text-align: center;
+padding: 50px 20px;
+font-family: 'Roboto Slab', serif;
+background-color: #f9f9f9;
+margin-top: 20px;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+
+}
+
+.advantages h2 {
+font-size: 2.5em;
+font-family:'roboto Slab', serif; ;
+margin-bottom: 30px;
+color: #2c3e50;
+}
+
+.advantage-list {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.advantage {
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 15px;
+padding: 20px;
+max-width: 250px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+transition: transform 0.2s;
+}
+
+.advantage:hover {
+transform: scale(1.05);
+}
+
+.advantage h3 {
+font-size: 1.5em;
+margin-bottom: 10px;
+color: #27ae60;
+}
+
+.advantage p {
+font-size: 1em;
+color: #555;
+}
+
+
+/*présentation + images */
+.carpool{
+    display: flex;
+    
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    font-family:'roboto Slab', serif;
+    gap: 30px;
+    color: rgb(214, 161, 63);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.presentation1{
+display: flex;
+}
+.presentation2{
+flex-direction: column;
+align-content:center;
+}
+.presentation3{
+
+    height: 700px;
+    flex-direction: column;
+    align-content: end;
+
+}
+
+
+.carpoolimg{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content:flex-start;
+    border-radius: 20px;
+}
+
+/* Footer */
+
+.footer{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*#endregion index*/
+
+/*#region Covoiturage */
+
+
+.searchcar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.order1{
+    display: flex;
+    justify-content: center;
+}
+
+.order2{
+    height: 50px;
+    border-radius: 40px;
+    margin-left: 20px;
+    
+}
+
+/* profile utilisateur */
+.backdriver{
+    background-color: #fcfcfc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 40px;
+}
+
+
+.driver{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+
+.driver1{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(rgb(69, 157, 216),rgb(153, 102, 255));
+    width: 800px;
+    border: 1px solid rgb(153, 102, 255);
+    box-shadow: 0 4px 10px; 
+    border-radius: 20px;
+    
+}
+.sort{
+    position: absolute;
+    background-color: #f3f7f4;
+}
+
+.pricepassenger{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Premier block : pseudo;image,note */
+
+.carimg{
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 10px;    
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 5px 5px rgb(73, 73, 73);}
+
+.carimg:hover{
+    transform: scale(1.05)
+}
+
+
+.profil{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+/* Deuxième block : départ, destination */
+
+.arrowdown{
+    width: 40px;
+    height: 40px;
+}
+
+.destination{
+    display: flex;
+    
+    justify-content: space-around;
+    justify-content: end; 
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.town{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+/* Troisième block : nombes de place disponibles */
+.places{
+    display: flex ;
+    gap: 10px;
+    align-items: center;
+}
+/* Quatrième block :icone voiture , temps trajet , prix */
+
+.timeprice{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+.eleccar{
+    width: 40px;
+    
+}
+
+.price{
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+
+/*#endregion covoiturage*/
+
+
+
+
+
+
+
+
+
+
+

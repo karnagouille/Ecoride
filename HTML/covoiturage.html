@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ecoridee/css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<script src="/ecoridee/Java Script/main.js" defer></script>
+    <title>Eco Ryde </title>
+</head>
+<body>
+    <header>
+        <nav class="container titleshadow" >
+            <div>
+                <a href="index.html" class="decoration navlink">Accueil</a>
+            </div>
+            <div>
+                <a href="covoiturage.html" class="decoration navlink">covoiturage</a>
+            </div>
+            <div>
+                <a href="" class="decoration navlink ">Contact</a>
+            </div>
+            <div>
+                <a href="connexion.html" class="decoration navlink">Connexion</a>
+            </div>
+        </nav>
+    </header>
+            
+    <div class="searchcar">
+        <form>
+            <div>
+                <input class="input" type="search" placeholder="Départ">
+                <input class="input" type="search" placeholder="Destination">
+
+                <select type="button" class="input" id="friend"> 
+                    <option value="select">1 passager</option>
+                    <option>2 passagers</option>
+                    <option>3 passagers</option>
+                    <option>4 passagers</option>
+                </select>    
+                    <input  class="inputdate" type="date">
+                    <input class="order2" placeholder="Heure de départ">
+                    <button class="find" type="submit">Rechercher</button>
+            </div>
+
+
+            
+            <div class="order1">
+                <button class="sort" id="btn">TRIEZ PAR 🡇</button>   
+                    <fieldset class="filtered hidden" id="filter">
+
+
+                        <div class="title">
+                            <div>
+                                <label for="" class="souligne"><strong>PRIX</strong></label>
+                            </div>
+                                <div>
+                                    <input type="radio" name = "$prix">Croissant 
+                                </div>
+
+                                <div>
+                                    <input type="radio" name = "$prix">Décroissant
+                                </div>
+                        </div>
+
+                        <div class="title">
+                            <div >
+                                <label for="" class="souligne"><strong>TEMPS</strong></label>
+                            </div>
+                            <div>
+                                <select id="">
+                                    <option value="1-2">🕒 1–2 h</option>
+                                    <option value="2-3">🕒 2–3 h</option>
+                                    <option value="3-4">🕒 3–4 h</option>
+                                    <option value="4-5">🕒 4–5 h</option>
+                                    <option value="5-6">🕒 5–6 h</option>
+                                    <option value="6-7">🕒 6–7 h</option>
+                                    <option value="7-8">🕒 7–8 h</option>
+                                    <option value="8-9">🕒 8–9 h</option>
+                                    <option value="9-10">🕒 9–10 h</option>
+                                    <option value="10-11">🕒 10–11h</option>
+                                    <option value="11-12">🕒 11–12 h</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="title">
+                            <label for="" class="souligne"><strong > VOITURE ECO</strong></label>
+                            <div>
+                                <input type="radio" name = "tesla">oui
+                            </div>
+                            <div>
+                                <input type="radio"  name = "tesla">non
+                            </div>
+                        </div>
+
+                        <div class="title">
+                            <div>
+                                <label for="" class="souligne"><strong>NOTE</strong></label>
+                            </div>
+                                <div>
+                                    <input type="radio" name = "note">5
+                                </div>
+                                <div>
+                                    <input type="radio" name = "note">4 ou +
+                                </div>
+                                <div>
+                                    <input type="radio" name = "note">3 ou +
+                                </div>
+                                <div>
+                                    <input type="radio" name = "note">2 ou +
+                                </div>
+                        </div>
+
+                    </fieldset>     
+            </div>
+        </form>        
+    </div>
+
+<div class="backdriver">
+    <div>
+        <h1><strong>3 trajets disponible</strong></h1>
+    </div>
+
+    <div class="reserved">
+        <a href="/ecoridee/HTML/renseignement.html" class="reserved">        
+            <div class="driver1">
+                <div class="profil">
+                    <div>
+                        <div>
+                            <p><strong>Kirrua</strong></p>
+                        </div>
+                        <div>
+                            <img src="/ecoridee/image/voiturier.jpg" alt="carimg" class="userimg">
+                        </div>
+                        <div>
+                            <p><strong>5/5</strong></div></p>
+                        </div>                
+                    </div>
+
+                    <div class="destination">
+                        <div>
+                            <div class="time">
+                                <p><img src="/ecoridee/tools/voiture-electrique.png" alt="eleccar" class="eleccar">
+                                    <strong>Durée : 1H15 🕒</strong>
+                                </p>
+                                    
+                            </div>
+                            <div class="startfinish">
+                            
+                                <div>
+                                    <p><strong> 🏁 Départ 🏁: 10H Manosque gare routière </strong></p>
+                                </div>
+                            </div> 
+                            
+                            <div >------------------------------------------------------------</div>
+                            <div class="startfinish">
+                                <div>
+                                    <p><strong> 🎯 Arrivée 🎯: 11H15 Marseille gare saint charle </strong></p>
+                                </div>
+                            </div>    
+                        </div>                               
+                    </div>
+
+                        <div class="priceplace">
+                            <div>
+                                <p><strong>3 Places</strong></p>
+                            </div>
+                            <div>
+                                <p><strong>💰10€</strong></p>
+                            </div>
+                            
+                        </div>               
+                </div>
+            </a>
+            <button class="reservedbutton"><strong>Participer</strong></button>
+    </div>
+
+    <div class="reserved">
+        <a href="/ecoridee/HTML/renseignement.html" class="reserved">        
+            <div class="driver1">
+                <div class="profil">
+                    <div>
+                        <div>
+                            <p></p>Pseudo</div>
+                        <div>
+                            <img src="/ecoridee/image/voiturier.jpg" alt="carimg" class="userimg">
+                        </div>
+                        <div>
+                            <p><strong>5/5</strong></div></p>
+                        </div>                
+                    </div>
+
+                    <div class="destination">
+                        <div>
+                            <div class="time">
+                                <p><img src="/ecoridee/tools/voiture-electrique.png" alt="eleccar" class="eleccar">
+                                    <strong>Durée : 1H15 🕒</strong>
+                                </p>
+                                    
+                            </div>
+                            <div class="startfinish">
+                            
+                                <div>
+                                    <p><strong> 🏁 Départ 🏁: 10H Manosque gare routière </strong></p>
+                                </div>
+                            </div> 
+                            
+                            <div >------------------------------------------------------------</div>
+                            <div class="startfinish">
+                                <div>
+                                    <p><strong> 🎯 Arrivée 🎯: 11H15 Marseille gare saint charle </strong></p>
+                                </div>
+                            </div>    
+                        </div>                               
+                    </div>
+
+                        <div class="priceplace">
+                            <div>
+                                <p><strong>3 Places</strong></p>
+                            </div>
+                            <div>
+                                <p><strong>💰10€</strong></p>
+                            </div>
+                            
+                        </div>               
+                </div>
+            </a>
+            <button class="reservedbutton"><strong>Reserver</strong></button>
+    </div>
+
+
+</body>
+
+
